@@ -1,0 +1,198 @@
+body{
+    background-color: #f0f1f7;
+}
+.Box{
+    background:white;
+    display: flexbox;
+    justify-self: center;
+    justify-content:center;
+    height:700px;
+    width:600px ;
+    margin: auto;
+    border-radius: 17px;
+}
+.Notification{
+    color:#2a2b30;
+    font-weight:900;
+    width: 140px;
+    margin-right: 0%;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.Notificationbox{
+    display:inline;
+    width:504px
+}
+.Notification_head{
+    width: 200px;
+    display: flex;
+}
+#unread_count{
+    background-color: #023378;
+    color:#becedd;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    height:18px;
+    width:20px;
+    margin-top:5px;
+    border-radius: 4px;
+}
+#read{
+    font-family: Plus Jakarta Sans;
+    color: #64676a;
+    margin:0;
+    width:fit-content;
+    transition-delay: 0.15s;
+}
+#read:hover{
+    opacity: 0.73;
+    cursor:pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+    margin-left: 35px;
+}
+.Friend{
+    font-family:Plus Jakarta Sans;
+    font-weight:900;
+}
+.Time_stamp{
+    display: flex;
+    font-style: normal;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:0px;
+    font-weight: 400;
+}
+.Message{
+    justify-self: center;
+    display: flex;
+    border-radius: 5px;
+    width:550px;
+    height:62px;
+    margin: 15px 0px 20px 30px;;
+}
+.not_lines{
+    font-size: medium;
+    font: 300;
+    width:436px;
+    height:40px;
+    margin-top:10px;
+    font-size:14px;
+    padding-left:12px;
+}
+.images{
+    display: inline-flex;
+    height: 30px;
+    margin: 10px 0px 0px 10px;
+}
+.unread{
+    background-color: #f7fbfd;
+}
+.unread:hover{
+    cursor: pointer;
+}
+.comments{
+    font-style: normal;
+    color:#848990;
+    font-size: 14px;
+}
+#private_message{
+    display: flex;
+    border-style: solid;
+    border-width: 0.5px;
+    transition-delay: 0.05;
+    border-radius: 4px;
+}
+#private_message:hover{
+    background-color: #e5eef8;
+    border: white;
+    border-radius: 2px;
+}
+.rizky{
+   text-align:left;
+    height:80px;
+    margin-bottom: 30px;
+}
+.dot{
+    height: 7px;
+    width: 7px;
+    background-color: #fc1a1a;
+    border-radius: 50%;
+    display: inline-block;
+}
+.kimberly{
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+/*Responsive */
+@media screen and (max-width:600px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .Box{
+        background:white;
+        display:block;
+        justify-self: center;
+        height:100%;
+        width:375px ;
+        margin: 0px;
+        border-radius: 17px;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content;
+        margin: 8px 8px 7px 12px;
+    }
+    .Notification_head{
+        width: 160px;
+        height: fit-content;
+        display: flex;
+    }
+    .Notification{
+        color:#2a2b30;
+        font-weight:900;
+        width: 108px;
+        margin-right: 0px;
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+        padding-left: 10px;
+    }
+    .Message{
+        justify-content: center;
+        display: flex;
+        border-radius: 5px;
+        width:300px;
+        height:65px;
+        margin: 5px 0px 6px 20px;
+        padding: 1px;
+    }
+    .rizky{
+        text-align:left;
+        margin-top: 0px;
+         height:80px;
+         margin-bottom: 100px;
+     }
+     #unread_count{
+        background-color: #023378;
+        color:#becedd;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        height:18px;
+        width:20px;
+        margin-top:2px;
+        border-radius: 4px;
+        margin-left:0px;
+    }
+    .kimberly{
+        padding-left: 0px;
+        margin-bottom: 7px;
+    }
+}
